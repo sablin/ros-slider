@@ -4,7 +4,7 @@ window.onload= function(){
 	secondScreen= document.querySelector('.second-screen');
 
 start.addEventListener('click', function(){
-	start.innerHTML = 'Все в порядке. Демонстрацию запуститься через 5 секунд.'
+	start.innerHTML = 'Все в порядке. Демонстрация запустится через 5 секунд.'
 	setTimeout(()=>{
 		firstScreen.style.display  = 'none';
 		secondScreen.style.display  = 'block';
